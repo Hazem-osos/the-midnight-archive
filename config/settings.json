@@ -1,0 +1,65 @@
+{
+  "channel": {
+    "name": "THE MIDNIGHT ARCHIVE",
+    "tagline": "Some files were never meant to be opened.",
+    "disclaimer": "This story is a work of fiction. Any resemblance to real people or events is coincidental."
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 19,
+    "preset": "medium",
+    "audio_bitrate": "192k",
+    "min_duration": 60,
+    "max_duration": 90,
+    "crossfade": 0.45,
+    "end_card_seconds": 3.2
+  },
+  "timing": {
+    "lead_in": 0.3,
+    "sentence_gap": 0.26,
+    "segment_gap": 0.48,
+    "ellipsis_pause": 0.45
+  },
+  "imagegen": {
+    "enabled": true,
+    "base_model": "Lykon/dreamshaper-8",
+    "lcm_lora": "latent-consistency/lcm-lora-sdv1-5",
+    "width": 512,
+    "height": 768,
+    "steps": 7,
+    "guidance": 1.6,
+    "hires_scale": 1.5,
+    "hires_strength": 0.42,
+    "hires_steps": 6,
+    "style_suffix": "cinematic horror film still, low-key lighting, deep shadows, muted desaturated colors, 35mm film grain, volumetric haze, realistic, highly detailed",
+    "negative_prompt": "cartoon, anime, illustration, painting, text, watermark, logo, signature, bright colors, oversaturated, lowres, blurry, deformed, extra fingers, extra limbs, disfigured, gore, blood, nudity"
+  },
+  "depth": {
+    "enabled": true,
+    "model": "depth-anything/Depth-Anything-V2-Small-hf"
+  },
+  "story": {
+    "min_words": 150,
+    "max_words": 215,
+    "words_per_second": 2.45,
+    "similarity_threshold": 0.35,
+    "claude_cli": "claude",
+    "claude_timeout_s": 300
+  },
+  "youtube": {
+    "privacy": "private",
+    "category_id": "24",
+    "client_secrets": "config/client_secret.json",
+    "token": "config/youtube_token.json",
+    "contains_synthetic_media": true
+  },
+  "dashboard": {
+    "host": "127.0.0.1",
+    "port": 8765
+  },
+  "scheduler": {
+    "time": "09:00"
+  }
+}

@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+models/
+scratch/
+episodes/
+logs/
+data/
+config/client_secret.json
+config/youtube_token.json
+character/reference/
+*.tmp
+.DS_Store

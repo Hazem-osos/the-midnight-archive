@@ -1,0 +1,71 @@
+{
+  "name": "Elias Voss",
+  "role": "Host and narrator of THE MIDNIGHT ARCHIVE",
+  "version": 1,
+  "locked": true,
+  "identity": {
+    "age": "approximately 38",
+    "gender": "male",
+    "hair": "dark, near-black, combed back",
+    "facial_hair": "short, subtle dark beard",
+    "complexion": "pale",
+    "eyes": "dark, steady, rarely blinking",
+    "wardrobe": "black vintage three-piece suit, black shirt, no tie, silver pocket-watch chain",
+    "presence": "calm, controlled, quietly intimidating; never shouts, never smiles fully",
+    "expressions": "subtle: slight head tilt, narrowed eyes, faint half-smile at the twist"
+  },
+  "environment": {
+    "location": "an underground archive vault",
+    "details": [
+      "rows of antique leather-bound books and file boxes",
+      "warm amber candlelight, several candles on the desk",
+      "an old chrome broadcast microphone on the desk",
+      "a stopped silver pocket watch, hands frozen at 3:17"
+    ],
+    "palette": "deep black shadows, warm amber highlights, cold teal fill"
+  },
+  "visual_reference": {
+    "image": "character/reference/elias_voss_reference.png",
+    "prompt": "cinematic portrait photograph of a 38 year old man with dark combed back hair and a short subtle dark beard, pale skin, calm intimidating stare, wearing a black vintage three-piece suit and black shirt, seated at an old wooden desk in an underground archive, shelves of antique leather books behind him, warm candlelight, vintage chrome broadcast microphone on the desk, low-key lighting, dark moody atmosphere, 85mm lens, shallow depth of field, film still",
+    "negative_prompt": "smiling, teeth, cartoon, anime, illustration, painting, text, watermark, bright, colorful, deformed, extra fingers, disfigured, glasses, hat, young, old, woman",
+    "seed": null,
+    "model": "Lykon/dreamshaper-8 (CreativeML OpenRAIL-M)",
+    "rule": "The reference image is generated ONCE and reused unchanged in every episode. Never regenerate it per episode."
+  },
+  "voice": {
+    "engine": "kokoro-onnx (Kokoro-82M, Apache-2.0)",
+    "model_file": "models/kokoro/kokoro-v1.0.fp16.onnx",
+    "voices_file": "models/kokoro/voices-v1.0.bin",
+    "blend": {
+      "am_michael": 0.6,
+      "am_onyx": 0.4
+    },
+    "speed": 0.88,
+    "lang": "en-us",
+    "accent": "General American English",
+    "fx": "warm low-shelf, gentle compression, short dark room reverb",
+    "note": "Voice is a fixed mix of two built-in Kokoro voices. No voice cloning of any real person is used."
+  },
+  "secondary_voices": {
+    "victim_tape": {
+      "blend": {
+        "am_liam": 1.0
+      },
+      "speed": 0.9,
+      "fx": "tape"
+    }
+  },
+  "catchphrases": {
+    "intro": "Welcome to the Midnight Archive. I'm Elias Voss.",
+    "outro_close": "File closed."
+  },
+  "branding": {
+    "logo": "assets/brand/logo.png",
+    "watch_time": "3:17",
+    "fonts": {
+      "brand": "Cinzel",
+      "subtitles": "Anton",
+      "stamps": "Special Elite"
+    }
+  }
+}

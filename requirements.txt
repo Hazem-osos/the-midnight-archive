@@ -1,0 +1,16 @@
+numpy
+pillow
+soundfile
+psutil
+kokoro-onnx
+opencv-python-headless
+torch
+diffusers
+transformers
+accelerate
+peft
+safetensors
+huggingface_hub
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2

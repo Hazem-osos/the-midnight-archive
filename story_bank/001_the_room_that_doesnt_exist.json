@@ -1,0 +1,223 @@
+{
+  "id": "the-room-that-doesnt-exist",
+  "title": "The Room That Doesn't Exist",
+  "genre": "supernatural mystery",
+  "logline": "A man hears knocking inside his bedroom wall every night at 3:17 AM. On the seventh night, police find a sealed room that was never on any blueprint.",
+  "themes": [
+    "knocking",
+    "hidden room",
+    "tape recorder",
+    "mirror",
+    "doppelganger"
+  ],
+  "hook_text": "IT KNOCKED FOR 7 NIGHTS",
+  "segments": [
+    {
+      "type": "hook",
+      "scene": "wall",
+      "text": "For seven nights, Daniel Hale heard knocking inside his bedroom wall. Always at {3:17|three seventeen}.",
+      "sfx": [
+        {
+          "name": "knock3",
+          "at": 0.2
+        },
+        {
+          "name": "boom",
+          "at": "end"
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "scene": "narrator",
+      "text": "Welcome to the Midnight Archive. I'm Elias Voss. This is file {001|zero zero one}.",
+      "sfx": [
+        {
+          "name": "watch_tick",
+          "at": 0.0
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "scene": "bedroom",
+      "stamp": "NIGHT 1 · 3:17 AM",
+      "text": "Daniel lived alone. Behind his bed was nothing but solid brick... or so the landlord swore."
+    },
+    {
+      "type": "story",
+      "scene": "hand_wall",
+      "stamp": "NIGHT 4 · 3:17 AM",
+      "text": "Three slow knocks, every night. On the fourth night, Daniel knocked back. Something answered.",
+      "sfx": [
+        {
+          "name": "knock3",
+          "at": 1.6
+        },
+        {
+          "name": "knock3_far",
+          "at": "end-1.2"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "scene": "police",
+      "stamp": "NIGHT 7 · 3:17 AM",
+      "text": "On the seventh night, the police cut open the wall. Behind the plaster was a door. Sealed... from the inside.",
+      "sfx": [
+        {
+          "name": "riser",
+          "at": "end-2.5"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "scene": "hidden_room",
+      "text": "Beyond it was a room no blueprint had ever shown. Empty, except for an old tape recorder. Still playing.",
+      "sfx": [
+        {
+          "name": "tape_click",
+          "at": "end-0.6"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "scene": "tape",
+      "text": "The voice on the tape was Daniel's own. Hoarse. Terrified."
+    },
+    {
+      "type": "tape",
+      "scene": "tape",
+      "voice": "victim_tape",
+      "text": "Don't turn around. Please... don't turn around.",
+      "sfx": [
+        {
+          "name": "tape_hiss",
+          "at": 0.0,
+          "dur": "segment"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "scene": "mirror",
+      "text": "On the far wall hung an old mirror. In it, Daniel's reflection was smiling. Daniel was not.",
+      "sfx": [
+        {
+          "name": "heartbeat",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "type": "twist",
+      "scene": "behind",
+      "text": "It wasn't his reflection. Something was standing right behind him... so close, its face covered his own in the glass.",
+      "sfx": [
+        {
+          "name": "reverse_swell",
+          "at": "end-1.6"
+        },
+        {
+          "name": "stinger",
+          "at": "end"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "scene": "aftermath",
+      "text": "It was never knocking to get out. It was knocking to see if anyone was home."
+    },
+    {
+      "type": "outro",
+      "scene": "narrator",
+      "text": "The officers left at {3:16|three sixteen}. Daniel Hale was never seen again. If something knocks tonight... don't answer. File closed.",
+      "sfx": [
+        {
+          "name": "knock3_far",
+          "at": "end-2.2"
+        }
+      ]
+    }
+  ],
+  "scenes": {
+    "wall": {
+      "prompt": "extreme close-up of an old cracked plaster bedroom wall with peeling wallpaper at night, faint cold moonlight raking across the cracks, deep shadows, ominous, empty",
+      "move": "push_in",
+      "seed": 1317
+    },
+    "narrator": {
+      "character": "elias_voss",
+      "move": "narrator"
+    },
+    "bedroom": {
+      "prompt": "dark small apartment bedroom at night, single bed pushed against a plain wall, glowing red digital alarm clock on the nightstand, moonlight through window blinds casting stripes, lonely, ominous",
+      "move": "pan_left",
+      "seed": 2201
+    },
+    "hand_wall": {
+      "prompt": "a man's hand pressed flat against a bedroom wall in darkness, seen from behind his shoulder, cold blue moonlight, tension, close-up",
+      "move": "push_in",
+      "seed": 3307
+    },
+    "police": {
+      "prompt": "two police officers with flashlights inspecting a rough hole cut in a plaster wall of a dark apartment bedroom at night, dust floating in the flashlight beams, a hidden wooden door visible inside the hole",
+      "move": "pan_right",
+      "seed": 4419
+    },
+    "hidden_room": {
+      "prompt": "a hidden dusty empty room behind a wall, bare concrete, an old portable reel-to-reel tape recorder alone on the floor in the center, a single shaft of flashlight beam, dust particles, abandoned, eerie",
+      "move": "push_in",
+      "seed": 5521
+    },
+    "tape": {
+      "prompt": "close-up of an old dusty reel-to-reel tape recorder with tape reels on the floor of a dark room, dim flashlight glow, shallow depth of field, eerie",
+      "move": "slow_orbit",
+      "seed": 6631
+    },
+    "mirror": {
+      "prompt": "an old ornate antique mirror hanging on a dirty concrete wall in a dark empty room, the reflection of a pale man smiling unnaturally, dim flashlight light, unsettling",
+      "move": "push_in_slow",
+      "seed": 7741
+    },
+    "behind": {
+      "prompt": "dark horror scene, a frightened man seen from the front in a dark room, behind him a tall gaunt pale figure with a featureless face looming over his shoulder, very dark, faint cold light, terrifying",
+      "move": "dolly_out",
+      "seed": 8853,
+      "fx": [
+        "glitch"
+      ]
+    },
+    "aftermath": {
+      "prompt": "an empty dark apartment bedroom at night with a large hole cut in the wall revealing pitch black darkness, police tape, dust, moonlight, abandoned",
+      "move": "push_in",
+      "seed": 9967
+    }
+  },
+  "thumbnail_scene": "behind",
+  "metadata": {
+    "title": "The Room That Doesn't Exist | Midnight Archive File 001",
+    "hashtags": [
+      "#shorts",
+      "#horrorstory",
+      "#scarystories",
+      "#creepy",
+      "#mystery",
+      "#horror"
+    ],
+    "tags": [
+      "horror story",
+      "scary story",
+      "creepy story",
+      "hidden room",
+      "knocking in the wall",
+      "3:17 AM",
+      "fictional horror",
+      "Midnight Archive"
+    ]
+  }
+}
